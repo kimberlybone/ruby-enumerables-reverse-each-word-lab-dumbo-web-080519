@@ -6,4 +6,8 @@ def reverse_each_word (string)
 end 
 
 def reverse_each_word (string)
-  array
+  array = string.split("")
+  new = []
+  array.collect { |greeting| new.unshift(greeting) }
+  puts new.join("")
+end 
