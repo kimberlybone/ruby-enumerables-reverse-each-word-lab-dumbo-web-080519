@@ -1,3 +1,5 @@
 def reverse_each_word 
-  "Hello there, and how are you?".split
+  greeting = "Hello there, and how are you?".split
+  greeting.each do
+    
 end 
