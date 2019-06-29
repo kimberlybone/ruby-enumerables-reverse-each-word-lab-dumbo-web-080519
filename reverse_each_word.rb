@@ -8,6 +8,6 @@ end
 def reverse_each_word (string)
   array = string.split("")
   new = []
-  array.collect { |greeting| new.unshift(greeting) }
+  array.collect { |string| new << string.reverse }
   return new.join("")
 end 
